@@ -1,116 +1,105 @@
-[
-    {
-        "row": 3,
-        "rowLen": 2,
-        "column": 4,
-        "columnLen": 2
-    },
-    {
-        "row": 18,
-        "rowLen": 5,
-        "column":4,
-        "columnLen":2
-    },
-    {
-        "row": 18,
-        "rowLen":5,
-        "column":22,
-        "columnLen":5
-    },
-    {
-        "row": 18,
-        "rowLen":5,
-        "column":16,
-        "columnLen":2
-    },
-    {
-        "row": 18,
-        "rowLen":5,
-        "column":16,
-        "columnLen":5
-    },
-    {
-        "row": 18,
-        "rowLen":5,
-        "column":3,
-        "columnLen":2
-    },
-    {
-        "row": 23,
-        "rowLen":3,
-        "column":22,
-        "columnLen":5
-    },
-    {
-        "row": 23,
-        "rowLen":3,
-        "column":16,
-        "columnLen":2
-    },
-    {
-        "row": 23,
-        "rowLen":3,
-        "column":16,
-        "columnLen":5
-    },
-    {
-        "row": 9,
-        "rowLen":2,
-        "column":17,
-        "columnLen":2
-    },
-    {
-        "row": 9,
-        "rowLen":2,
-        "column":22,
-        "columnLen":5
-    },
-    {
-        "row": 15,
-        "rowLen":2,
-        "column":17,
-        "columnLen":2
-    },
-    {
-        "row": 15,
-        "rowLen":2,
-        "column":22,
-        "columnLen":5
-    },
-    {
-        "row": 6,
-        "rowLen":2,
-        "column":16,
-        "columnLen":5
-    },
-    {
-        "row": 6,
-        "rowLen": 2,
-        "column":3,
-        "columnLen":2
-    },
-    {
-        "row": 6,
-        "rowLen": 2,
-        "column": 16,
-        "columnLen":5
-    },
-    {
-        "row": 6,
-        "rowLen":2,
-        "column":14,
-        "columnLen":2
-    },
-    {
-        "row": 12,
-        "rowLen":2,
-        "column":16,
-        "columnLen":5
-    },
-    {
-        "row": 12,
-        "rowLen":2,
-        "column":14,
-        "columnLen":2
-    }
-]
+{
+    "squares":
+    [
+        {"row": 1, "column": 1},
+        {"row": 1, "column": 3},
+        {"row": 2, "column": 5},
+        {"row": 2, "column": 6},
+        {"row": 3, "column": 1},
+        {"row": 3, "column": 3},
+        {"row": 3, "column": 4},
+        {"row": 3, "column": 5},
+        {"row": 3, "column": 6},
+        {"row": 4, "column": 3},
+        {"row": 4, "column": 4},
+        {"row": 4, "column": 5},
+        {"row": 5, "column": 2},
+        {"row": 5, "column": 3},
+        {"row": 6, "column": 5},
+        {"row": 6, "column": 8},
+        {"row": 7, "column": 2},
+        {"row": 7, "column": 3},
+        {"row": 8, "column": 5},
+        {"row": 8, "column": 7}
+    ],
+    "rows": 
+    [
+        {
+            "rowId": 1,
+            "num": 3,
+            "length": 2
+        },
+        {
+            "rowId": 2,
+            "num": 6,
+            "length": 2
+        },
+        {
+            "rowId": 3,
+            "num": 18,
+            "length": 5
+        },
+        {
+            "rowId": 4,
+            "num": 23,
+            "length": 3
+        },
+        {
+            "rowId": 5,
+            "num": 9,
+            "length": 2
+        },
+        {
+            "rowId": 6,
+            "num": 6,
+            "length": 2
+        },
+        {
+            "rowId": 7,
+            "num": 15,
+            "length": 2
+        },
+        {
+            "rowId": 8,
+            "num": 12,
+            "length": 2
+        }
+    ],
+    "columns": 
+    [
+        {
+            "columnId": 1,
+            "num": 4,
+            "length": 2
+        },
+        {
+            "columnId": 2,
+            "num": 17,
+            "length": 2
+        },
+        {
+            "columnId": 3,
+            "num": 22,
+            "length": 5
+        },
+        {
+            "columnId": 4,
+            "num": 16,
+            "length": 2
+        },
+        {
+            "columnId": 5,
+            "num": 16,
+            "length": 5
+        },
+        {
+            "columnId": 6,
+            "num": 3,
+            "length": 2
+        },{
+            "columnId": 7,
+            "num": 14,
+            "length": 2
+        }
+    ]
+}
